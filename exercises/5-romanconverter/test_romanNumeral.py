@@ -23,9 +23,6 @@ def test_int_to_roman_20():
     assert int_to_roman(30) == "XXX"
 
 
-from __init__ import roman_to_int
-
-
 def test_roman_to_int_5():
     assert roman_to_int("I") == 1
     assert roman_to_int("II") == 2
