@@ -7,7 +7,7 @@
 - 1-hello [====================>] 100% (1/1) - Coverage: 100%
 - 3-reverse [====================>] 100% (1/1) - Coverage: 100%
 - 6-bowling [>                   ] 0% (0/0) - Coverage: 0%
-- 5-romanconverter [====================>] 100% (6/6) - Coverage: 95%
+- 5-romanconverter [>                   ] 0% (0/0) - Coverage: 0%
 <!-- END_PROGRESS -->
 
 ## Instructions pour démarrer le projet
