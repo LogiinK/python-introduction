@@ -1,4 +1,4 @@
-from __init__ import int_to_roman
+from src import *
 
 
 def test_int_to_roman_5():
