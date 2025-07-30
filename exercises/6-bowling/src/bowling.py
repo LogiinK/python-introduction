@@ -6,7 +6,7 @@ def bowling2strike(partie: str) -> int:
 
     for i, frame in enumerate(frames):
         if frame == "X":
-            score += 10
+            score += handle_strike()
         else:
             for throw in frame:
                 if throw == "-":
@@ -15,3 +15,6 @@ def bowling2strike(partie: str) -> int:
                     score += int(throw)
 
     return score
+
+def handle_strike() -> int:
+    return 10

@@ -8,3 +8,6 @@ def test_bowling2win():
 
 def test_bowling2strike():
     assert bowling2strike("X -- 22 12 -- 81 11 -- -- 22") == 32
+
+def test_strike_with_throws_after():
+    assert bowling2strike("X 25 22 12 -- 81 11 -- -- 22") == 46
