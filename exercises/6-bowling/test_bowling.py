@@ -16,4 +16,7 @@ def test_strike_perfect_with_throws_after():
     assert bowling2strike("X X X X X X X X X X X X") == 300
 
 def test_spare_with_throws_after():
-    assert bowling2strike("X 25 2/ -- 9/ 11 -- -- 26") == 58
+    assert bowling2strike("X 25 2/ -- 9/ 11 -- -- 26") == 56
+
+def test_spare_perfect_with_throws_after2():
+    assert bowling2strike("X X X X X 3/ 2/ 4/ 3/ 2/ 3") == 197
